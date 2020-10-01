@@ -1,0 +1,49 @@
+.navbar {
+    padding: 3% 4%;
+    background-color: black;
+
+    &__link {
+        text-decoration: none;
+        color: white;
+        opacity: .98;
+        font-size: 1.5rem;
+
+        &:hover {
+            text-decoration: none;
+            color: white;
+        }
+    }
+    &__img{
+        @include respond (phone) {
+           width:25%;
+        }
+    }
+}
+
+.header {
+    background-color: black;
+    padding: 4%;
+
+    @include respond (phone) {
+        text-align: center;
+    }
+
+    &__head {
+        font-size: 1.8rem;
+        color: $light;
+        font-weight: 700;
+    }
+
+    &__text {
+        font-family: 'Frank Ruhl Libre', serif;
+        color: white;
+        font-size: 3.5rem;
+        font-weight: 500;
+        opacity: .95;
+        width: 45%;
+        margin-top: 1.5%;
+        @include respond (phone) {
+            width:100%;
+        }
+    }
+}

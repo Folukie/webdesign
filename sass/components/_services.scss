@@ -1,0 +1,211 @@
+.services {
+    width:100%;
+    &__text {
+        background-color: #212529;
+        color: white;
+        padding: 30rem 14rem 0;
+
+        @include respond (phone) {
+            padding: 5rem;
+        }
+    }
+
+    &__topic {
+        font-size: 4rem;
+        font-family: 'Frank Ruhl Libre', serif;
+        padding-bottom: 4rem;
+
+        @include respond (phone) {
+            padding-top: 2rem;
+        }
+    }
+
+    &__images {
+        background-color: #000;
+        padding: 15rem;
+
+        @include respond (phone) {
+            padding: 5rem;
+        }
+    }
+
+    &__img {
+        width: 100%;
+        margin-bottom: 10rem;
+
+        @include respond (phone) {
+            margin-bottom: 4rem;
+        }
+    }
+
+    &__story {
+        font-family: 'Quicksand', sans-serif;
+        font-weight: 700;
+
+        &--2 {
+            padding-top: 50rem;
+
+            @include respond (phone) {
+                padding-top: 5rem;
+            }
+        }
+
+        &--3 {
+            padding-top: 50rem;
+
+            @include respond (phone) {
+                padding-top: 5rem;
+            }
+        }
+
+    }
+
+    &__head {
+        font-size: 2rem;
+        padding-bottom: 2rem;
+
+    }
+
+    &__subhead {
+        font-size: 1.7rem;
+        color: $light;
+        width: 90%;
+
+        @include respond (phone) {
+            width: 100%;
+        }
+    }
+}
+
+.lady {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.fit {
+    @include respond (phone) {
+
+        margin: 0 2rem;
+
+    }
+
+    &__img {
+        width: 100%;
+
+        &--1 {
+            height: 28%;
+            margin: 6rem 4rem;
+            object-fit: cover;
+
+            @include respond (phone) {
+                width: 100%;
+                height: 40%;
+                margin: 0;
+
+            }
+        }
+
+        &--2 {
+            margin: 6rem 4rem;
+            height: 80%;
+            position: absolute;
+            z-index: 99;
+            left: 6rem;
+            object-fit: cover;
+
+
+            @include respond (phone) {
+                position: static;
+                height: 40%;
+                margin: 0;
+
+            }
+        }
+    }
+
+    &__text {
+        background-color: #f6fcff;
+        padding: 5rem;
+        width: 100%;
+        color: $dark;
+        opacity: .8;
+        height: 100vh;
+        margin: -4rem auto 0;
+        position: relative;
+
+        @include respond (phone) {
+            padding: 2rem;
+            margin: 0 auto;
+            height: 50vh;
+            position: static;
+        }
+    }
+
+    &__head {
+        font-size: 4rem;
+        font-family: 'Frank Ruhl Libre', serif;
+        width: 94%;
+        padding: 14rem 0 0 26rem;
+        color: black;
+
+        @include respond (phone) {
+            padding: 4rem 2rem;
+            width: 100%;
+        }
+
+
+    }
+
+    &__subhead {
+        font-size: 1.8rem;
+        font-weight: 700;
+        width: 94%;
+        padding: 2rem 0 0 26rem;
+
+        @include respond (phone) {
+            padding: 1.5rem 2rem;
+            width: 100%;
+        }
+    }
+}
+
+.project {
+    background-color: #f6fcff;
+    padding: 8rem;
+    margin: -1rem;
+
+    @include respond (phone) {
+        padding: 3rem;
+
+    }
+
+    &__head {
+        color: black;
+        font-size: 4rem;
+        font-family: 'Frank Ruhl Libre', serif;
+    }
+
+    &__subhead {
+        color: $light;
+        font-size: 4rem;
+        font-family: 'Frank Ruhl Libre', serif;
+
+    }
+
+    &__btn {
+        color: $light;
+        font-weight: 600;
+        background-color: $dark;
+        font-size: 1.7rem;
+        padding: 1.4rem 3.8rem;
+        margin-top: 4rem;
+        border-radius: 0;
+        transition: all .4s;
+
+        &:hover {
+            background-color: black;
+            color: $light;
+        }
+    }
+}

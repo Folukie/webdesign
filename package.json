@@ -1,0 +1,14 @@
+{
+  "name": "webdesign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss styles/styles.css -w"
+  },
+  "author": "foluke",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  }
+}

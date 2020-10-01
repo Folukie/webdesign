@@ -1,0 +1,38 @@
+.footer {
+    height: 70vh;
+    background-color: black;
+    color: rgb(247, 244, 244);
+    font-weight: 600;
+    font-size: 1.4rem;
+    padding: 6rem 4rem;
+
+    &__row {
+        border-bottom: 1px solid $light;
+        padding-bottom: 5rem;
+    }
+
+    &__left {
+        color: rgb(126, 122, 122);
+        float: right;
+        padding: 4rem 0;
+        font-weight: 400;
+        
+        @include respond (phone) {
+            float:none;
+        }
+
+    }
+}
+
+li {
+    list-style: none;
+}
+
+.directions {
+    color: $light;
+    font-weight: 400;
+
+    &:hover {
+        color: $light;
+    }
+}
