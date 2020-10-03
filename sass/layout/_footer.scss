@@ -7,7 +7,7 @@
     padding: 6rem 4rem;
 
     @include respond (phone) {
-        height:130vh;
+        height:110vh;
       }
 
   &__text{
@@ -45,7 +45,7 @@
         &--right{
            float:right;
             font-weight: 600;
-            font-size: 1.4rem;
+            font-size: 1.5rem;
             @include respond (phone) {
                text-align: center;
              }

@@ -71,8 +71,7 @@ body {
   padding: 6rem 4rem; }
   @media (max-width: 37.5em) {
     .footer {
-      padding: 7rem 4rem;
-      height: 130vh; } }
+      height: 110vh; } }
   @media (max-width: 37.5em) {
     .footer__text {
       margin-top: 2.5rem; } }
@@ -98,7 +97,7 @@ body {
     .footer__left--right {
       float: right;
       font-weight: 600;
-      font-size: 1.4rem; }
+      font-size: 1.5rem; }
       @media (max-width: 37.5em) {
         .footer__left--right {
           text-align: center; } }
