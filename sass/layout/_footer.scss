@@ -7,18 +7,19 @@
     padding: 6rem 4rem;
 
     @include respond (phone) {
-        height:110vh;
-      }
-
-  &__text{
-    @include respond (phone) {
-      margin-top: 2.5rem;
+        height: 116vh;
     }
-  }
+
+    &__text {
+        @include respond (phone) {
+            margin-top: 2.5rem;
+        }
+    }
 
     &__row {
         border-bottom: 1px solid $light;
         padding-bottom: 5rem;
+
         @include respond (phone) {
             padding-bottom: 6rem;
         }
@@ -36,20 +37,21 @@
             padding: 3rem 0;
         }
 
-        &--row{
+        &--row {
             @include respond (phone) {
-               display: none;
+                display: none;
             }
         }
 
-        &--right{
-           float:right;
+        &--right {
+            float: right;
             font-weight: 600;
             font-size: 1.5rem;
+
             @include respond (phone) {
-               text-align: center;
-             }
-          
+                text-align: center;
+            }
+
         }
     }
 
@@ -58,11 +60,12 @@
         line-height: .9;
     }
 }
-.contact{
+
+.contact {
     @include respond (phone) {
         margin-bottom: 2rem;
     }
-    
+
 }
 
 
