@@ -6,6 +6,11 @@
     font-size: 1.3rem;
     padding: 6rem 4rem;
 
+    @include respond (phone) {
+        padding: 15rem 4rem;
+
+      }
+
   &__text{
     @include respond (phone) {
       margin-top: 2.5rem;
@@ -25,7 +30,7 @@
         float: right;
         padding: 4rem 0;
         font-weight: 600;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
 
         @include respond (phone) {
             float: left;

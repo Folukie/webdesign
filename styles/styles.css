@@ -70,6 +70,9 @@ body {
   font-size: 1.3rem;
   padding: 6rem 4rem; }
   @media (max-width: 37.5em) {
+    .footer {
+      padding: 15rem 4rem; } }
+  @media (max-width: 37.5em) {
     .footer__text {
       margin-top: 2.5rem; } }
   .footer__row {
@@ -77,16 +80,16 @@ body {
     padding-bottom: 5rem; }
     @media (max-width: 37.5em) {
       .footer__row {
-        padding-bottom: 9rem; } }
+        padding-bottom: 15rem; } }
   .footer__left {
     color: #7e7a7a;
     float: right;
     padding: 4rem 0;
     font-weight: 600;
-    font-size: 1.5rem; }
+    font-size: 1.7rem; }
     @media (max-width: 37.5em) {
       .footer__left {
-        float: none;
+        float: left;
         padding: 3rem 0; } }
   .footer__h4 {
     line-height: .9; }
