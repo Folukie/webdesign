@@ -7,8 +7,7 @@
     padding: 6rem 4rem;
 
     @include respond (phone) {
-        padding: 7rem 4rem;
-        height:140vh;
+        height:130vh;
       }
 
   &__text{
@@ -34,13 +33,12 @@
 
         @include respond (phone) {
             text-align: center;
-            float: left;
             padding: 3rem 0;
         }
 
         &--row{
             @include respond (phone) {
-               display:none;
+               display: none;
             }
         }
 
