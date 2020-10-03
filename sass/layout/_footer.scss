@@ -3,26 +3,54 @@
     background-color: black;
     color: rgb(247, 244, 244);
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     padding: 6rem 4rem;
+
+  &__text{
+    @include respond (phone) {
+      margin-top: 2.5rem;
+    }
+  }
 
     &__row {
         border-bottom: 1px solid $light;
         padding-bottom: 5rem;
+        @include respond (phone) {
+            padding-bottom: 9rem;
+        }
     }
 
     &__left {
         color: rgb(126, 122, 122);
         float: right;
         padding: 4rem 0;
-        font-weight: 400;
-        
+        font-weight: 600;
+        font-size: 1.5rem;
+
         @include respond (phone) {
-            float:none;
+            float: left;
+            padding: 3rem 0;
         }
 
     }
+
+    &__h4 {
+
+        line-height: .9;
+    }
 }
+.contact{
+    @include respond (phone) {
+        margin-bottom: 2rem;
+    }
+    
+}
+.text-right {
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+
 
 li {
     list-style: none;

@@ -13,9 +13,10 @@
             color: white;
         }
     }
-    &__img{
+
+    &__img {
         @include respond (phone) {
-           width:25%;
+            width: 25%;
         }
     }
 }
@@ -25,11 +26,11 @@
     padding: 4%;
 
     @include respond (phone) {
-        text-align: center;
+        padding:9rem 4%;
     }
 
     &__head {
-        font-size: 1.8rem;
+        font-size: 1.85rem;
         color: $light;
         font-weight: 700;
     }
@@ -37,13 +38,16 @@
     &__text {
         font-family: 'Frank Ruhl Libre', serif;
         color: white;
-        font-size: 3.5rem;
+        font-size: 4.4rem;
         font-weight: 500;
         opacity: .95;
-        width: 45%;
+        width: 70%;
         margin-top: 1.5%;
+
         @include respond (phone) {
-            width:100%;
+            width: 80%;
+            font-size: 2.6rem;
+            padding-top: 1.8rem;
         }
     }
 }
