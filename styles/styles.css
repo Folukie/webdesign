@@ -71,7 +71,7 @@ body {
   padding: 6rem 4rem; }
   @media (max-width: 37.5em) {
     .footer {
-      height: 116vh; } }
+      height: 80vh; } }
   @media (max-width: 37.5em) {
     .footer__text {
       margin-top: 2.5rem; } }
