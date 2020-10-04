@@ -6,8 +6,11 @@
     font-size: 1.3rem;
     padding: 6rem 4rem;
 
-    @include respond (phone) {
+    @include respond (tab-port) {
         height: 80vh;
+    }
+    @include respond (phone) {
+        height: 100vh;
     }
 
     &__text {

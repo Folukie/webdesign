@@ -69,9 +69,12 @@ body {
   font-weight: 600;
   font-size: 1.3rem;
   padding: 6rem 4rem; }
-  @media (max-width: 37.5em) {
+  @media (max-width: 56.25em) {
     .footer {
       height: 80vh; } }
+  @media (max-width: 37.5em) {
+    .footer {
+      height: 100vh; } }
   @media (max-width: 37.5em) {
     .footer__text {
       margin-top: 2.5rem; } }
